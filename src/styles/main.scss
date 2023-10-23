@@ -1,0 +1,33 @@
+@import "mixins";
+@import "variables";
+
+.top-div {
+  width: 100%;
+  height: 52px;
+  @include center-item;
+  @include font-styles($Montnates, 16px, 800, 24px, #ffffffbf);
+  background-color: $PRIMARY-COLOR;
+  @media (max-width: $breakpoint) {
+    font-size: 14px;
+    height: 40px;
+    color: white;
+  }
+}
+
+#photo-shoot {
+  height: 660px;
+  width: 100%;
+  background-image: url("../public/Olevera_Photoshoot.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+  @include center-item;
+  @media (max-width: $breakpoint) {
+    height: 293px;
+    & > img {
+      height: 90px;
+      width: 90px;
+    }
+  }
+}

@@ -4,7 +4,7 @@ import React from 'react';
 export default function Services() {
   return (
     <section id="services">
-      <img className="former-circle" src="public/Circle.png" alt="" />
+      <img className="former-circle" src="Circle.png" alt="" />
 
       <div className="stats">
         <div>150+<span>Projects</span></div>
@@ -14,7 +14,7 @@ export default function Services() {
       </div>
       <div className="boxes">
         <div className="left">
-          <img className="circle" src="public/Circle.png" alt="" />
+          <img className="circle" src="Circle.png" alt="" />
           <h4>Services</h4>
           <p>Our services that can help your business</p>
           <p className="description">

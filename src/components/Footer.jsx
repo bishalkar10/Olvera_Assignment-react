@@ -15,12 +15,12 @@ export default function Footer() {
         <div className="btn">Get Started</div>
         <div className="flex">
           <div className="image-container">
-            <img className="hide-small-screen" src="public/Olvera-First-Logo-BGY-1 2.png" alt="" />
-            <img className="hide-small-screen" src="public/Olvera-Capital-300x49 1.png" alt="" />
-            <img className="hide-big-screen" src="public/image 127.png" alt="" />
-            <img className="hide-big-screen" src="public/image 128.png" alt="" />
-            <img className="hide-big-screen" src="public/image 129.png" alt="" />
-            <img className="hide-big-screen" src="public/image 130.png" alt="" />
+            <img className="hide-small-screen" src="Olvera-First-Logo-BGY-1 2.png" alt="" />
+            <img className="hide-small-screen" src="Olvera-Capital-300x49 1.png" alt="" />
+            <img className="hide-big-screen" src="image 127.png" alt="" />
+            <img className="hide-big-screen" src="image 128.png" alt="" />
+            <img className="hide-big-screen" src="image 129.png" alt="" />
+            <img className="hide-big-screen" src="image 130.png" alt="" />
             <p>Turning Uncertainty Into Your Advantage</p>
           </div>
           <div className="links resources">
